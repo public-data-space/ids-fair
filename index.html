@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Replace me with a real title</title>
+    <title>IDS FAIR Application Profile</title>
     <script
       src="https://www.w3.org/Tools/respec/respec-w3c"
       class="remove"
@@ -11,22 +11,29 @@
     <script class="remove">
       // All config options at https://respec.org/docs/
       var respecConfig = {
-        specStatus: "ED",
-        editors: [{ name: "Your Name", url: "https://your-site.com" }],
-        github: "some-org/mySpec",
+        editors: [
+            { name: "Fabian Kirstein" },
+            { name: "Vincent Bohlen" },
+
+        ],
+        github: "https://github.com/public-data-space/ids-fair/",
         shortName: "dahut",
         xref: "web-platform",
-        group: "my-working-group",
+        subtitle: "Publishing FAIR Data with IDS",
+        branch: "master",
       };
     </script>
   </head>
   <body>
+    <p class="copyright">
+        Copyright (c) Fraunhofer
+    </p>
     <section id="abstract">
-      <p>This is required.</p>
+      <p>
+          The IDS FAIR Application Profile provides detailed guidelines how to publish FAIR data, using the IDS specifications.
+      </p>
     </section>
-    <section id="sotd">
-      <p>This is required.</p>
-    </section>
+  
     <section class="informative">
       <h2>Introduction</h2>
       <p>Some informative introductory text.</p>
@@ -45,20 +52,13 @@
       </aside>
       <section>
         <h3>I'm a sub-section</h3>
-        <p class="issue" data-number="121">
-          <!-- Issue can automatically be populated from GitHub -->
-        </p>
+
       </section>
     </section>
     <section data-dfn-for="Foo">
       <h2>Start your spec!</h2>
-      <pre class="idl">
-        [Exposed=Window]
-        interface Foo {
-        attribute DOMString bar;
-        undefined doTheFoo();
-        };
-      </pre>
+
+
       <p>The <dfn>Foo</dfn> interface represents a {{Foo}}.</p>
       <p>
         The <dfn>doTheFoo()</dfn> method does the foo. Call it by running
@@ -76,7 +76,7 @@
     <section class="appendix">
       <h2>Change log</h2>
       <p>Recent changes to this specification from GitHub:</p>
-      <rs-changelog from="some-git-tag"> </rs-changelog>
+
     </section>
   </body>
 </html>
